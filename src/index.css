@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply font-sans bg-[#F5F7FA] text-[#2F3542] antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-semibold tracking-tight;
+}
