@@ -56,7 +56,7 @@ function App() {
                 e administração financeira.
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button href="#contato-form" className="bg-white text-blue-400 hover:bg-blue-50 font-semibold h-12 px-8 text-sm md:text-base">
+                <Button href="#contato-form" className="bg-white text-blue-500 hover:bg-blue-50 font-semibold h-12 px-8 text-sm md:text-base">
                   Começar teste gratuito
                 </Button>
                 <Button href="#contato-form" variant="outline" className="border-white text-white h-12 px-7 text-sm md:text-base">
