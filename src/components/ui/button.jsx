@@ -7,7 +7,7 @@ export function Button({ className, variant = "solid", ...props }) {
 
   const variants = {
     solid: "bg-azulClinico text-white hover:bg-[#236bb5]",
-    outline: "border border-azulClinico text-azulClinico bg-transparent hover:bg-[#e4effc]",
+    outline: "border border-azulClinico text-blue-400 bg-transparent hover:bg-[#e4effc]",
     ghost: "text-cinzaProfissional bg-transparent hover:bg-gray-100",
   };
 
