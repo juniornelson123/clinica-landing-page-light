@@ -15,7 +15,7 @@ export default function TabsSections() {
         "Importar Clientes",
       ],
       image:
-        "https://images.unsplash.com/photo-1581091012184-5c11d2d827a0?auto=format&fit=crop&w=900&q=60",
+        "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=60",
     },
     terapeutica: {
       title: "Gestão Terapêutica",
@@ -39,7 +39,7 @@ export default function TabsSections() {
         "Configuração de Faixas",
       ],
       image:
-        "https://images.unsplash.com/photo-1605902711622-cfb43c44367e?auto=format&fit=crop&w=900&q=60",
+        "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=900&q=60",
     },
     financeiro: {
       title: "Financeiro",

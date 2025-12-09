@@ -12,7 +12,7 @@ export function Button({ className, variant = "solid", ...props }) {
   };
 
   return (
-    <button
+    <a
       className={cn(base, variants[variant], "px-6 h-11 text-sm md:text-base", className)}
       {...props}
     />

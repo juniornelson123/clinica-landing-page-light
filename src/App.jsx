@@ -30,10 +30,10 @@ function App() {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            <Button variant="ghost" className="hidden md:inline-flex">
-              Entrar
+            <Button href="#contato-form" variant="ghost" className="hidden md:inline-flex">
+              Saiba mais
             </Button>
-            <Button className="hidden md:inline-flex">
+            <Button href="#contato-form" className="hidden md:inline-flex">
               Agendar demonstração
             </Button>
           </div>
@@ -56,10 +56,10 @@ function App() {
                 e administração financeira.
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button className="bg-white text-azulClinico hover:bg-blue-50 font-semibold h-12 px-8 text-sm md:text-base">
+                <Button href="#contato-form" className="bg-white text-blue-400 hover:bg-blue-50 font-semibold h-12 px-8 text-sm md:text-base">
                   Começar teste gratuito
                 </Button>
-                <Button variant="outline" className="border-white text-white h-12 px-7 text-sm md:text-base">
+                <Button href="#contato-form" variant="outline" className="border-white text-white h-12 px-7 text-sm md:text-base">
                   Falar com especialista
                 </Button>
               </div>
@@ -68,31 +68,8 @@ function App() {
               </p>
             </div>
 
-            <div className="bg-white rounded-3xl shadow-xl border border-gray-200 p-5 md:p-6">
-              <div className="flex items-center justify-between mb-4">
-                <div>
-                  <p className="text-sm font-medium text-cinzaProfissional">Visão geral da clínica</p>
-                  <p className="text-xs text-gray-500">Atendimentos, planos, relatórios e financeiro</p>
-                </div>
-                <span className="text-xs bg-green-50 text-verdeEquilibrio px-3 py-1 rounded-full border border-green-100">
-                  Fluxo saudável
-                </span>
-              </div>
-              <div className="grid grid-cols-2 gap-3 text-sm mb-4">
-                <MiniStat label="Atendimentos hoje" value="32" />
-                <MiniStat label="Relatórios pendentes" value="5" />
-                <MiniStat label="Famílias conectadas" value="87" />
-                <MiniStat label="Profissionais ativos" value="18" />
-              </div>
-              <div className="rounded-2xl bg-[#F5F7FA] border border-gray-200 p-4">
-                <p className="text-xs font-medium text-gray-600 mb-2">
-                  Evolução terapêutica • últimos 6 meses
-                </p>
-                <div className="h-24 w-full rounded-xl bg-gradient-to-r from-[#E4EFFC] via-[#D7F4E6] to-[#FFF3D1]" />
-                <p className="mt-3 text-[11px] text-gray-500">
-                  Acompanhe indicadores, planos, avaliações e supervisões em tempo real.
-                </p>
-              </div>
+            <div className="rounded-3xl">
+              <img src="/dash.png" />
             </div>
           </div>
         </section>
@@ -256,10 +233,10 @@ function App() {
               cada processo com precisão, ética e organização.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              <Button className="h-12 px-8 text-sm md:text-base">
+              <Button href="#contato-form" className="h-12 px-8 text-sm md:text-base">
                 Agendar demonstração guiada
               </Button>
-              <Button variant="outline" className="h-12 px-8 text-sm md:text-base">
+              <Button href="#contato-form" variant="outline" className="h-12 px-8 text-sm md:text-base">
                 Receber apresentação completa
               </Button>
             </div>
@@ -268,7 +245,7 @@ function App() {
       </main>
 
       {/* Seção de Contato */}
-      <section className="py-24 px-6 bg-white">
+      <section className="py-24 px-6 bg-white" id="contato-form">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800">Entre em Contato</h2>
           <p className="text-lg opacity-80 mt-4">
